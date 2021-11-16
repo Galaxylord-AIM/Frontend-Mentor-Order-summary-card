@@ -34,7 +34,7 @@ body {
 .text-area .title {
     font-weight: 900;
     color: hsl(223, 47%, 23%);
-    margin: 20px 0;
+    margin: 25px 0;
 }
 
 .text-area .sub-title {
@@ -49,12 +49,40 @@ body {
     margin: 25px;
     background-color: hsl(225, 100%, 98%);
     border-radius: 15px;
-    padding: 15px 0;
+    padding: 25px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .plan-box .plan-box-left {
     text-align: left;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-box-left .icon {
+    margin-right: 20px;
+}
+
+.plan-box-left .summary h4 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    padding-bottom: 2px;
+}
+
+.plan-box-left .summary p {
+    font-weight: 700;
+    padding-top: 2px;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-box a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.plan-box a:active {
+    color: ;
 }
