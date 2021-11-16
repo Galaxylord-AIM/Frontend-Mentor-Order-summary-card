@@ -10,3 +10,22 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    /* position: absolute; */
+    position: relative;
+}
+
+.container {
+    margin: 11vh auto;
+    background-color: white;
+    width: 450px;
+    height: 675px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
