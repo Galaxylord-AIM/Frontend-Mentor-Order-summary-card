@@ -83,6 +83,20 @@ body {
     font-weight: 700;
 }
 
-.plan-box a:active {
-    color: ;
+.plan-box a:active, .plan-box a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    /* color: hsl(225, 100%, 98%); */
+}
+
+.container .text-area .payment-btn {
+    background-color: hsl(245, 75%, 52%);
+    display: block;
+    margin: 0 25px 25px 25px;
+    padding: 20px 0;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    /* box-shadow: ; */
 }
