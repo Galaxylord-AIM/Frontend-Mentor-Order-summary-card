@@ -84,10 +84,10 @@ body {
     font-weight: 700;
 }
 
-.plan-box a:active, .plan-box a:hover{
+.plan-box a:active{
     text-decoration: none;
     cursor: pointer;
-    /* color: hsl(225, 100%, 98%); */
+    color: hsl(247, 87%, 68%);
 }
 
 .container .text-area .payment-btn {
@@ -102,9 +102,20 @@ body {
     /* box-shadow: ; */
 }
 
+.container .text-area .payment-btn:active{
+    cursor: pointer;
+    background-color: hsl(247, 87%, 68%);
+}
+
 .container .text-area .cancel-btn {
     font-weight: 900;
     text-decoration: none;
     color: hsl(224, 23%, 55%);
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container .text-area .cancel-btn:active{
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
 }
