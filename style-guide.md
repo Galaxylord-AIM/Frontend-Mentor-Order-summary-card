@@ -24,9 +24,9 @@ The designs were created to the following widths:
 
 ### Body Copy
 
-- Font size (paragraph): 16px
+<!-- - Font size (paragraph): 16px -->
 
 ### Font
 
-- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
-- Weights: 500, 700, 900
+<!-- - Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display) -->
+<!-- - Weights: 500, 700, 900 -->
